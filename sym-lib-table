@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "magic-epaper")(type "KiCad")(uri "${KIPRJMOD}/magic-epaper.kicad_sym")(options "")(descr ""))
+)
