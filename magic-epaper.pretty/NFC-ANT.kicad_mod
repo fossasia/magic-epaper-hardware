@@ -1,0 +1,211 @@
+(footprint "NFC-ANT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.007359 -0.83 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e51505ae-22f6-4e24-8bdc-fe1530c2cac0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "NFC-ANT"
+		(at -0.007359 0.67 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ffc15689-d89a-42e6-b4fe-490ee6db6a51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "NFC-ANT"
+		(at -0.007359 -0.33 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9a4358c-4a5a-4a86-b394-17bb894e8358")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.007359 -0.33 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc0ce2e5-1fce-4a94-b9d0-db02661eb8e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.007359 -0.33 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de8b01c7-6e64-407d-a240-1e9a1eba2c28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at -0.007359 2.17 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d2618044-f5ac-4dfc-8a24-9a2f51e29265")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.242641 21.5)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a5bcc6fc-b3cb-43e7-911b-87401a5cafb8")
+	)
+	(pad "1" smd custom
+		(at -2.242641 21.5)
+		(size 1 1)
+		(layers "F.Cu")
+		(zone_connect 0)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_line
+				(start 0 0)
+				(end -19.257359 0)
+				(width 1)
+			)
+			(gr_line
+				(start -19.257359 0)
+				(end -19.257359 -43)
+				(width 1)
+			)
+			(gr_line
+				(start -19.257359 -43)
+				(end 23.742641 -43)
+				(width 1)
+			)
+			(gr_line
+				(start 23.742641 -43)
+				(end 23.742641 0)
+				(width 1)
+			)
+			(gr_line
+				(start 23.742641 0)
+				(end 2.828427 0)
+				(width 1)
+			)
+			(gr_line
+				(start 2.828427 0)
+				(end 0.828427 -2)
+				(width 1)
+			)
+			(gr_line
+				(start 0.828427 -2)
+				(end -17.257359 -2)
+				(width 1)
+			)
+			(gr_line
+				(start -17.257359 -2)
+				(end -17.257359 -41)
+				(width 1)
+			)
+			(gr_line
+				(start -17.257359 -41)
+				(end 21.742641 -41)
+				(width 1)
+			)
+			(gr_line
+				(start 21.742641 -41)
+				(end 21.742641 -2)
+				(width 1)
+			)
+			(gr_line
+				(start 21.742641 -2)
+				(end 3.656854 -2)
+				(width 1)
+			)
+			(gr_line
+				(start 3.656854 -2)
+				(end 1.656854 -4)
+				(width 1)
+			)
+			(gr_line
+				(start 1.656854 -4)
+				(end -15.257359 -4)
+				(width 1)
+			)
+			(gr_line
+				(start -15.257359 -4)
+				(end -15.257359 -39)
+				(width 1)
+			)
+			(gr_line
+				(start -15.257359 -39)
+				(end 19.742641 -39)
+				(width 1)
+			)
+			(gr_line
+				(start 19.742641 -39)
+				(end 19.742641 -4)
+				(width 1)
+			)
+		)
+		(uuid "71b14f3e-0e15-463a-ae70-15d0ca6da03e")
+	)
+	(pad "2" thru_hole circle
+		(at 2.242641 17.5)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ce55eb8f-98f8-404a-a089-92aac37f6a51")
+	)
+	(pad "2" smd custom
+		(at 2.242641 17.5)
+		(size 1 1)
+		(layers "F.Cu")
+		(zone_connect 0)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_line
+				(start 0 0)
+				(end 15.257359 0)
+				(width 1)
+			)
+		)
+		(uuid "03ce4939-b828-4650-9657-f96eef179f1b")
+	)
+)
