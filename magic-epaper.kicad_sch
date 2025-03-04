@@ -6104,7 +6104,7 @@
 		)
 		(uuid "10ec1eab-11cc-478d-944d-b5a5eaa3df02")
 	)
-	(label "SCL"
+	(label "SDA"
 		(at 267.97 39.37 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6346,7 +6346,7 @@
 		)
 		(uuid "a197d8ec-b370-4be8-942c-085c594eb527")
 	)
-	(label "SDA"
+	(label "SCL"
 		(at 267.97 41.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8606,7 +8606,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SI2308"
+		(property "Value" "AO3400"
 			(at 215.646 94.996 0)
 			(effects
 				(font
@@ -8636,7 +8636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Any SOT-23 N-Channel MOSFET with Vds > 30V will work. Derived from Si1308EDL."
+		(property "Description" "Any SOT-23 N-Channel MOSFET with Vds > 30V and Vgs(th) < 1.5V will work. Symbol derived from Si1308EDL."
 			(at 209.55 91.44 0)
 			(effects
 				(font
