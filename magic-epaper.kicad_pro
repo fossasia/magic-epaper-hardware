@@ -532,7 +532,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./magic-epaper-gerber",
+      "plot": "./magic-epaper-gerber-v0.1-20250327",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

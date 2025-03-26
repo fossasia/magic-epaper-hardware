@@ -2203,6 +2203,187 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_WCH_CH32V0:CH32V003FxPx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4303,6 +4484,12 @@
 		(uuid "4ff1f182-7bb6-4de3-b8cf-01870fa50a4d")
 	)
 	(junction
+		(at 207.01 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "523eb52d-977b-45ed-941a-aac9742f4808")
+	)
+	(junction
 		(at 39.37 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4445,6 +4632,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c298d92e-b163-4a46-8050-a23fa65dfe5d")
+	)
+	(junction
+		(at 207.01 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5b3e280-a21b-4688-9d87-bab4ea06d965")
 	)
 	(junction
 		(at 43.18 181.61)
@@ -4896,7 +5089,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 96.52) (xy 207.01 99.06)
+			(xy 207.01 96.52) (xy 207.01 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5026,6 +5219,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 102.87) (xy 199.39 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a10c22c-f916-42a0-ad31-0228b2b88e7e")
+	)
+	(wire
+		(pts
 			(xy 260.35 33.02) (xy 264.16 33.02)
 		)
 		(stroke
@@ -5033,6 +5236,16 @@
 			(type default)
 		)
 		(uuid "4c2d0f5a-34f8-4b43-93aa-51f1961b51c5")
+	)
+	(wire
+		(pts
+			(xy 199.39 113.03) (xy 207.01 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d42f30e-3163-4895-a20a-f620222dbb62")
 	)
 	(wire
 		(pts
@@ -5696,6 +5909,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 102.87) (xy 207.01 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58bbc61-31b5-4920-9dd4-62b37d0f11b3")
+	)
+	(wire
+		(pts
 			(xy 232.41 82.55) (xy 232.41 93.98)
 		)
 		(stroke
@@ -5963,6 +6186,16 @@
 			(type default)
 		)
 		(uuid "cd1f29eb-87e4-4f50-a013-0c184d6a3d99")
+	)
+	(wire
+		(pts
+			(xy 199.39 110.49) (xy 199.39 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceeaac48-371a-4870-a13f-b6bf07f9f83c")
 	)
 	(wire
 		(pts
@@ -6316,7 +6549,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 104.14) (xy 207.01 113.03)
+			(xy 207.01 110.49) (xy 207.01 113.03)
 		)
 		(stroke
 			(width 0)
@@ -9277,6 +9510,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 203.2 102.87 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5838c105-3de7-4c3a-99e9-4b6b38cbeb95")
+		(property "Reference" "JP2"
+			(at 203.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 203.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 203.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 203.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bec9d46b-09e1-419b-b1e2-584a5eec061d")
+		)
+		(pin "1"
+			(uuid "3e98e057-a8d4-4251-8cae-d2a1e13fd568")
+		)
+		(instances
+			(project "magic-epaper"
+				(path "/6640c58c-e049-452e-99dd-2d5dfca4d582"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 127 157.48 0)
 		(unit 1)
@@ -11153,6 +11455,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 199.39 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d4fd117-0a9e-4db6-8e2c-3eb2295d7b57")
+		(property "Reference" "R9"
+			(at 197.358 109.982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.47R"
+			(at 201.422 109.982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c8759d7-3258-464e-b0aa-eb2ccd0582b3")
+		)
+		(pin "1"
+			(uuid "0781f6fc-ee87-4448-b7dd-db5bb2a51bd2")
+		)
+		(instances
+			(project "magic-epaper"
+				(path "/6640c58c-e049-452e-99dd-2d5dfca4d582"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 229.87 113.03 0)
 		(unit 1)
@@ -11996,6 +12367,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
@@ -12927,7 +13299,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 207.01 101.6 0)
+		(at 207.01 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12935,7 +13307,7 @@
 		(dnp no)
 		(uuid "f867b32d-3e48-4807-9b5d-84ad855506cd")
 		(property "Reference" "R4"
-			(at 204.978 103.632 90)
+			(at 204.978 109.982 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12943,8 +13315,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47R"
-			(at 209.042 103.632 90)
+		(property "Value" "4R7"
+			(at 209.042 109.982 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12952,8 +13324,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 207.01 101.6 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 207.01 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12962,7 +13334,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 101.6 0)
+			(at 207.01 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12971,7 +13343,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 207.01 101.6 0)
+			(at 207.01 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
