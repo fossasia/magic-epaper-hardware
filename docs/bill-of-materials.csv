@@ -1,6 +1,8 @@
 "Reference","Value","Datasheet","Footprint","Qty","DNP","Description"
 "C1,C2,C3,C4,C5,C6,C8,C9,C11","1uF","~","-- mixed values --","9","","Unpolarized capacitor, small symbol"
 "C7,C10,C14,C25,C26,C28","104","~","Capacitor_SMD:C_0402_1005Metric","6","","Unpolarized capacitor, small symbol"
+"C27","100pF","~","Capacitor_SMD:C_0402_1005Metric","1","","Unpolarized capacitor, small symbol"
+"C29","56pF","~","Capacitor_SMD:C_0402_1005Metric","1","","Unpolarized capacitor, small symbol"
 "C12,C13","10uF","~","Capacitor_SMD:C_0603_1608Metric","2","","Unpolarized capacitor, small symbol"
 "C15,C16,C17,C18,C19,C20,C21,C22,C23,C24","100uF","~","Capacitor_SMD:C_1206_3216Metric","10","","Unpolarized capacitor, small symbol"
 "D1,D2,D3","1N5819W","~","Diode_SMD:D_SOD-123","3","","V.rrm > 20V, I.f > 500mA"
