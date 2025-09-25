@@ -7350,8 +7350,8 @@
 				)
 			)
 		)
-		(property "Value" "Cx"
-			(at 214.376 38.1 90)
+		(property "Value" "56pF"
+			(at 213.36 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9895,8 +9895,8 @@
 				)
 			)
 		)
-		(property "Value" "Cx"
-			(at 206.756 38.1 90)
+		(property "Value" "DNP"
+			(at 205.74 37.592 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10095,8 +10095,8 @@
 				)
 			)
 		)
-		(property "Value" "Cx"
-			(at 200.406 38.1 90)
+		(property "Value" "DNP"
+			(at 199.39 37.592 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12263,8 +12263,8 @@
 				)
 			)
 		)
-		(property "Value" "Cx"
-			(at 220.726 38.1 90)
+		(property "Value" "100pF"
+			(at 219.71 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
